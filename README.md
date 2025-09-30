@@ -13,7 +13,7 @@ Generated Meshes</h1>
 
 ## News
 
-[09/2025] Paper and Code coming soon!
+[09/2025] Paper is now available at [arxiv](https://arxiv.org/abs/2509.24986)
 
 [08/2025] Light-SQ is accepted to SIGGRAPH Asia 2025 :fire:
 
