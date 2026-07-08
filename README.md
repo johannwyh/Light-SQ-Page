@@ -5,13 +5,15 @@ Generated Meshes</h1>
 <h4>TL;DR</h4>
 <h5>We present Light-SQ, a novel superquadric-based optimization framework that explicitly emphasizes structure-awareness.</h5>
 
-### [Project Page](https://johann.wang/Light-SQ/)
+### [Project Page](https://johann.wang/Light-SQ-Page/)
 
 <img src="./assets/light-sq_representative.jpg" alt="Teaser" width="100%">
 
 </div>
 
 ## News
+
+[07/2026] The official implementation has been released under Tencent!! Check [here](https://github.com/Tencent/Light-SQ) !!
 
 [09/2025] Paper is now available at [arxiv](https://arxiv.org/abs/2509.24986)
 
