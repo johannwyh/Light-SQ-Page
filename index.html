@@ -76,6 +76,54 @@
                 height: 180px;
             }
         }
+
+        /* Code release announcement banner */
+        .code-release-banner {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 10px 24px;
+            margin: 18px auto 22px auto;
+            background: linear-gradient(90deg, #24292e 0%, #0366d6 100%);
+            color: #ffffff !important;
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 0.3px;
+            border-radius: 999px;
+            box-shadow: 0 4px 14px rgba(3, 102, 214, 0.28);
+            text-decoration: none !important;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .code-release-banner:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(3, 102, 214, 0.4);
+            color: #ffffff !important;
+            text-decoration: none !important;
+        }
+        .code-release-banner .fa-github {
+            font-size: 22px;
+        }
+        .code-release-banner .badge-new {
+            background: #ff5252;
+            color: #fff;
+            font-size: 11px;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 999px;
+            letter-spacing: 0.5px;
+            animation: pulse-badge 1.6s infinite;
+        }
+        @keyframes pulse-badge {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(255, 82, 82, 0.6); }
+            50%      { box-shadow: 0 0 0 8px rgba(255, 82, 82, 0); }
+        }
+        .code-release-banner .arrow {
+            transition: transform 0.2s ease;
+        }
+        .code-release-banner:hover .arrow {
+            transform: translateX(4px);
+        }
     </style>
 </head>
 
@@ -208,6 +256,15 @@
                         </li> -->
                     </ul>
                 </div>
+        </div>
+
+        <div class="row text-center">
+            <a class="code-release-banner" href="https://github.com/Tencent/Light-SQ" target="_blank" rel="noopener">
+                <span class="badge-new">NEW</span>
+                <i class="fa fa-github" aria-hidden="true"></i>
+                <span>Our code is now open-sourced on GitHub</span>
+                <span class="arrow">&rarr;</span>
+            </a>
         </div>
 
         <div class="row text-center" style="font-size:large;"><strong>TL;DR:</strong> 
